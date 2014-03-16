@@ -1,0 +1,25 @@
+{
+	"name": "zae/bigmath",
+	"description": "Easily work with big numbers with late static binding and chaining.",
+	"license" : "MIT",
+	"authors": [
+		{
+			"name": "Ezra Pool",
+			"email": "ezra@tsdme.nl"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"suggest": {
+		"ext-bcmath": "*",
+		"ext-gmp": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Zae\\BigMath": "src/"
+		}
+	},
+	"minimum-stability": "stable",
+	"keywords": ["number", "math", "precision","bcmath", "gmp"]
+}
