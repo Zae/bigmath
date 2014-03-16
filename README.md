@@ -9,12 +9,16 @@ Supports multiple adapters, like bcmath and gmp.
 ## Late static binding ##
 No need to create a new object, simply call the first function statically.
 
+```php
 BigMath::Add("10");
+```
 
 ## Chaining ##
 Because the functions always return a new BigMath object, the function calls can be chained together.
 
+```php
 BigMath::Add("10")->Sub("5")->Mul("2");
+```
 
 ## Decimals ##
 The default of the class is to use decimal numbers, if these are not required they can be disabled, this could
