@@ -14,5 +14,7 @@ test:
             - "phpunit.xml"
         run_from: "vendor/bin/"
         coverage: "tests/logs/coverage"
+    php_loc:
+      directory: "src"
 
 complete:
